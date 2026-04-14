@@ -84,6 +84,11 @@ String emailRegex = "^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\\.[a-zA-Z]{2,6}$";
         return this.username + " " + this.password; 
 // מחזירה את שם המשתמש והסיסמה מופרדים ברווח
     } 
+public String getPassword() 
+{ 
+    return this.password; 
+}    
+
 } 
 // סגירת המחלקה 
 // User
